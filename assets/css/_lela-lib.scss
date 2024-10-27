@@ -1,0 +1,85 @@
+@import "bourbon";
+@import "neat";
+
+/// Function reference - http://sass-lang.com/documentation/Sass/Script/Functions.html#nth-instance_method
+
+@mixin nth-child($query) {
+
+  @if type-of($query) == number and unit($query) == "n" {
+    &:nth-child(#{$query}+1) {
+      clear: left;
+      }
+    }
+
+  }
+
+@mixin lela-container() {
+
+  &::after {
+    clear: both;
+    content: "";
+    display: block;
+    }
+  }
+
+// Custom Mixins for LiveMesh framework - utilizes other libs like Bourbon
+$tablet_size: 767;
+$mobile_size: 479;
+
+@mixin center {
+  margin: 0 auto;
+  text-align: center;
+  }
+
+@mixin clear() {
+  &:before, &:after {
+    content: "\0020";
+    display: block;
+    height: 0;
+    overflow: hidden;
+    }
+  &:after {
+    clear: both;
+    }
+  }
+
+@mixin linkTextOffscreen() {
+  text-indent: -9999px;
+  overflow: hidden;
+  text-decoration: none;
+  display: block;
+  font-size: 0;
+  text-align: start;
+  }
+
+@mixin hoverActiveFocus($property, $value) {
+  &:hover, &:active, &:focus {
+    #{$property}: $value;
+    }
+  }
+
+@mixin respond-to-max($point) {
+  @media only screen and (max-width: $point+px) { @content; }
+  }
+
+@mixin respond-between($point1, $point2) {
+  @media only screen and (min-width: $point1+px) and (max-width: $point2+px) { @content; }
+  }
+
+@mixin respond-to-min($point) {
+  @media only screen and (min-width: $point+px) { @content; }
+  }
+@mixin respond-to-retina() {
+  @media only screen and (-webkit-min-device-pixel-ratio: 2) { @content; }
+  }
+
+@mixin bottom-line($width: 35, $height: 2, $color: $theme_color) {
+  &:after {
+    width: $width + px;
+    height: $height + px;
+    background: $color;
+    display: block;
+    content: "";
+    @content;
+    }
+  }

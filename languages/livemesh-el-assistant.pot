@@ -1,0 +1,537 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: Events Calendar Slider\n"
+"POT-Creation-Date: 2023-02-15 18:10+0530\n"
+"PO-Revision-Date: 2015-10-26 13:24-0000\n"
+"Last-Translator: LiveMesh\n"
+"Language-Team: LiveMesh\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.8.10\n"
+"X-Poedit-KeywordsList: __;_e;_x;_n;esc_attr__;esc_attr_e;esc_html__;"
+"esc_html_e;_nx_noop\n"
+"X-Poedit-Basepath: ..\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: assets/js/lela-editor.js:44 assets/js/lela-editor.min.js:1
+msgid ""
+"Error! The prompt is blank. No instructions provided for content "
+"generation"
+msgstr ""
+
+#: assets/js/lela-editor.js:157 assets/js/lela-editor.min.js:1
+msgid ""
+"Error! The prompt is blank. No instructions provided for headline "
+"generation"
+msgstr ""
+
+#: admin/admin-ajax.php:56
+msgid "Sorry, an error occurred. Please refresh the page."
+msgstr ""
+
+#: admin/admin-ajax.php:82
+msgid "Sorry, an unknown error occurred..."
+msgstr ""
+
+#: admin/admin-ajax.php:123
+msgid "Saving plugin settings"
+msgstr ""
+
+#: admin/admin-ajax.php:124
+msgid "Plugin settings Saved"
+msgstr ""
+
+#: admin/admin-ajax.php:125
+msgid "Sorry, an error occurs while saving settings..."
+msgstr ""
+
+#: admin/admin-ajax.php:128
+msgid "Resetting plugin settings"
+msgstr ""
+
+#: admin/admin-ajax.php:129
+msgid "Plugin settings resetted"
+msgstr ""
+
+#: admin/admin-ajax.php:130
+msgid "Sorry, an error occurred while resetting settings"
+msgstr ""
+
+#: admin/admin-init.php:69
+msgid "AI Assistant for Elementor Settings"
+msgstr ""
+
+#: admin/admin-init.php:70
+msgid "Elementor AI Assistant"
+msgstr ""
+
+#: admin/views/admin-banner2.php:13
+msgid "Livemesh AI Assistant for Elementor"
+msgstr ""
+
+#: admin/views/admin-banner2.php:13
+msgid "Plugin Settings"
+msgstr ""
+
+#: admin/views/admin-banner2.php:16
+msgid "Save Settings"
+msgstr ""
+
+#: admin/views/admin-banner2.php:18
+msgid "Reset"
+msgstr ""
+
+#: admin/views/settings.php:30
+msgid "External API"
+msgstr ""
+
+#: admin/views/settings.php:33
+msgid "Debugging"
+msgstr ""
+
+#: admin/views/settings.php:43
+msgid "OpenAI API"
+msgstr ""
+
+#: admin/views/settings.php:47
+#: includes/core/class-content-generator.php:153
+#: includes/core/class-headline-generator.php:150
+#: includes/widgets/advanced-writer.php:192
+msgid "OpenAI API Settings"
+msgstr ""
+
+#: admin/views/settings.php:48
+msgid "Make sure you track your API usage at - "
+msgstr ""
+
+#: admin/views/settings.php:50
+msgid "OpenAI Account page"
+msgstr ""
+
+#: admin/views/settings.php:58
+msgid "OpenAI API Secret Key"
+msgstr ""
+
+#: admin/views/settings.php:59
+msgid "Generate your secret key by visiting -."
+msgstr ""
+
+#: admin/views/settings.php:60
+msgid "OpenAI API keys page"
+msgstr ""
+
+#: admin/views/settings.php:77
+msgid "Debug Mode"
+msgstr ""
+
+#: admin/views/settings.php:82
+msgid "Enable Script Debug Mode"
+msgstr ""
+
+#: admin/views/settings.php:84
+msgid ""
+"Use unminified Javascript files instead of minified ones to help "
+"developers debug an issue"
+msgstr ""
+
+#: admin/views/settings.php:99
+msgid "System Info"
+msgstr ""
+
+#: admin/views/settings.php:105
+msgid "System Information"
+msgstr ""
+
+#: admin/views/settings.php:106
+msgid "Server setup information useful for debugging purposes."
+msgstr ""
+
+#: includes/core/class-content-generator.php:59
+msgid "AI Content Generation"
+msgstr ""
+
+#: includes/core/class-content-generator.php:69
+msgid "Prompt for Content Generation"
+msgstr ""
+
+#: includes/core/class-content-generator.php:72
+msgid ""
+"Provide subject and detailed instructions for the content you want "
+"to generate. You can also paste here existing content and request "
+"AI to fix style/grammar or rewrite that content for you"
+msgstr ""
+
+#: includes/core/class-content-generator.php:83
+#: includes/core/class-headline-generator.php:82
+#: includes/widgets/advanced-writer.php:146
+msgid "Keywords"
+msgstr ""
+
+#: includes/core/class-content-generator.php:85
+#: includes/core/class-headline-generator.php:84
+#: includes/widgets/advanced-writer.php:148
+msgid "Provide keywords separated by commas for SEO"
+msgstr ""
+
+#: includes/core/class-content-generator.php:96
+#: includes/core/class-headline-generator.php:95
+#: includes/widgets/advanced-writer.php:159
+msgid "Choose Language"
+msgstr ""
+
+#: includes/core/class-content-generator.php:97
+#: includes/widgets/advanced-writer.php:160
+msgid "The text will be generated in the selected language."
+msgstr ""
+
+#: includes/core/class-content-generator.php:99
+#: includes/core/class-headline-generator.php:98
+#: includes/widgets/advanced-writer.php:162
+msgid "English"
+msgstr ""
+
+#: includes/core/class-content-generator.php:100
+#: includes/core/class-headline-generator.php:99
+#: includes/widgets/advanced-writer.php:163
+msgid "Spanish"
+msgstr ""
+
+#: includes/core/class-content-generator.php:101
+#: includes/core/class-headline-generator.php:100
+#: includes/widgets/advanced-writer.php:164
+msgid "German"
+msgstr ""
+
+#: includes/core/class-content-generator.php:102
+#: includes/core/class-headline-generator.php:101
+#: includes/widgets/advanced-writer.php:165
+msgid "French"
+msgstr ""
+
+#: includes/core/class-content-generator.php:103
+#: includes/core/class-headline-generator.php:102
+#: includes/widgets/advanced-writer.php:166
+msgid "Italian"
+msgstr ""
+
+#: includes/core/class-content-generator.php:104
+#: includes/core/class-headline-generator.php:103
+#: includes/widgets/advanced-writer.php:167
+msgid "Portuguese"
+msgstr ""
+
+#: includes/core/class-content-generator.php:105
+#: includes/core/class-headline-generator.php:104
+#: includes/widgets/advanced-writer.php:168
+msgid "Romanian"
+msgstr ""
+
+#: includes/core/class-content-generator.php:106
+#: includes/core/class-headline-generator.php:105
+#: includes/widgets/advanced-writer.php:169
+msgid "Dutch"
+msgstr ""
+
+#: includes/core/class-content-generator.php:107
+#: includes/core/class-headline-generator.php:106
+#: includes/widgets/advanced-writer.php:170
+msgid "Polish"
+msgstr ""
+
+#: includes/core/class-content-generator.php:108
+#: includes/core/class-headline-generator.php:107
+#: includes/widgets/advanced-writer.php:171
+msgid "Finnish"
+msgstr ""
+
+#: includes/core/class-content-generator.php:109
+#: includes/core/class-headline-generator.php:108
+#: includes/widgets/advanced-writer.php:172
+msgid "Danish"
+msgstr ""
+
+#: includes/core/class-content-generator.php:110
+#: includes/core/class-headline-generator.php:109
+#: includes/widgets/advanced-writer.php:173
+msgid "Norwegian"
+msgstr ""
+
+#: includes/core/class-content-generator.php:111
+#: includes/core/class-headline-generator.php:110
+#: includes/widgets/advanced-writer.php:174
+msgid "Chinese"
+msgstr ""
+
+#: includes/core/class-content-generator.php:112
+#: includes/core/class-headline-generator.php:111
+#: includes/widgets/advanced-writer.php:175
+msgid "Hindi"
+msgstr ""
+
+#: includes/core/class-content-generator.php:113
+#: includes/core/class-headline-generator.php:112
+#: includes/widgets/advanced-writer.php:176
+msgid "Japanese"
+msgstr ""
+
+#: includes/core/class-content-generator.php:114
+#: includes/core/class-headline-generator.php:113
+#: includes/widgets/advanced-writer.php:177
+msgid "Korean"
+msgstr ""
+
+#: includes/core/class-content-generator.php:115
+#: includes/core/class-headline-generator.php:114
+#: includes/widgets/advanced-writer.php:178
+msgid "Indonesian"
+msgstr ""
+
+#: includes/core/class-content-generator.php:116
+#: includes/core/class-headline-generator.php:115
+#: includes/widgets/advanced-writer.php:179
+msgid "Russian"
+msgstr ""
+
+#: includes/core/class-content-generator.php:117
+#: includes/core/class-headline-generator.php:116
+#: includes/widgets/advanced-writer.php:180
+msgid "Arabic"
+msgstr ""
+
+#: includes/core/class-content-generator.php:118
+#: includes/core/class-headline-generator.php:117
+#: includes/widgets/advanced-writer.php:181
+msgid "Turkish"
+msgstr ""
+
+#: includes/core/class-content-generator.php:131
+#: includes/core/class-headline-generator.php:130
+#: includes/widgets/advanced-writer.php:126
+msgid "Generate"
+msgstr ""
+
+#: includes/core/class-content-generator.php:132
+msgid ""
+"<div style=\"font-size: 15px;font-style: normal;margin-top: 5px;"
+"color: #666666;\" >You can generate AI images, control settings for "
+"content generation like writing style, writing tone, image style "
+"and do much more in the <a target=\"_blank\" href=\"https://"
+"codecanyon.net/item/ai-assistant-for-elementor/43387314\">premium "
+"version of the plugin</a></div>."
+msgstr ""
+
+#: includes/core/class-content-generator.php:162
+#: includes/core/class-headline-generator.php:159
+#: includes/widgets/advanced-writer.php:201
+msgid "Choose a GPT-3 Model to use"
+msgstr ""
+
+#: includes/core/class-content-generator.php:163
+#: includes/core/class-headline-generator.php:160
+#: includes/widgets/advanced-writer.php:202
+msgid ""
+"Know more about these models and their capabilities <a target="
+"\"_blank\" href=\"https://platform.openai.com/docs/models/"
+"gpt-3\">here</a>"
+msgstr ""
+
+#: includes/core/class-content-generator.php:165
+#: includes/core/class-headline-generator.php:162
+#: includes/widgets/advanced-writer.php:204
+msgid "text-davinci-003"
+msgstr ""
+
+#: includes/core/class-content-generator.php:166
+#: includes/core/class-headline-generator.php:163
+#: includes/widgets/advanced-writer.php:205
+msgid "text-curie-001"
+msgstr ""
+
+#: includes/core/class-content-generator.php:167
+#: includes/core/class-headline-generator.php:164
+#: includes/widgets/advanced-writer.php:206
+msgid "text-babbage-001"
+msgstr ""
+
+#: includes/core/class-content-generator.php:168
+#: includes/core/class-headline-generator.php:165
+#: includes/widgets/advanced-writer.php:207
+msgid "text-ada-001"
+msgstr ""
+
+#: includes/core/class-content-generator.php:177
+#: includes/core/class-headline-generator.php:174
+#: includes/widgets/advanced-writer.php:216
+msgid "Maximum Tokens"
+msgstr ""
+
+#: includes/core/class-content-generator.php:178
+#: includes/core/class-headline-generator.php:175
+#: includes/widgets/advanced-writer.php:217
+msgid ""
+"The maximum number of tokens to use for generation. Higher values "
+"means more content will be generated."
+msgstr ""
+
+#: includes/core/class-content-generator.php:195
+#: includes/core/class-headline-generator.php:192
+#: includes/widgets/advanced-writer.php:234
+msgid "Temperature"
+msgstr ""
+
+#: includes/core/class-content-generator.php:196
+#: includes/core/class-headline-generator.php:193
+#: includes/widgets/advanced-writer.php:235
+msgid ""
+"The sampling temperature to use. Higher values means the model will "
+"take more risks. Try 0.9 for more creative applications, and 0 for "
+"ones with a well-defined answer."
+msgstr ""
+
+#: includes/core/class-content-generator.php:214
+#: includes/core/class-headline-generator.php:211
+#: includes/widgets/advanced-writer.php:253
+msgid "Presence Penalty"
+msgstr ""
+
+#: includes/core/class-content-generator.php:215
+#: includes/core/class-headline-generator.php:212
+#: includes/widgets/advanced-writer.php:254
+msgid ""
+"Number between -2.0 and 2.0. Default is 0. Positive values penalize "
+"new tokens based on whether they appear in the text so far, "
+"increasing the model's likelihood to talk about new topics."
+msgstr ""
+
+#: includes/core/class-content-generator.php:233
+#: includes/core/class-headline-generator.php:230
+#: includes/widgets/advanced-writer.php:272
+msgid "Frequency Penalty"
+msgstr ""
+
+#: includes/core/class-content-generator.php:234
+#: includes/core/class-headline-generator.php:231
+#: includes/widgets/advanced-writer.php:273
+msgid ""
+"Number between -2.0 and 2.0. Default is 0. Positive values penalize "
+"new tokens based on their existing frequency in the text so far, "
+"decreasing the model's likelihood to repeat the same line verbatim."
+msgstr ""
+
+#: includes/core/class-content-generator.php:258
+msgid ""
+"Error! Your account does not have user permission to generate "
+"content!"
+msgstr ""
+
+#: includes/core/class-content-generator.php:275
+msgid ""
+"You have not provided the topic for the content that you want to "
+"generate!"
+msgstr ""
+
+#: includes/core/class-content-generator.php:305
+#: includes/core/class-content-generator.php:307
+#: includes/core/class-headline-generator.php:302
+#: includes/core/class-headline-generator.php:304
+msgid "Error! "
+msgstr ""
+
+#: includes/core/class-headline-generator.php:58
+msgid "AI Headline Generation"
+msgstr ""
+
+#: includes/core/class-headline-generator.php:68
+msgid "Prompt for Headline Generation"
+msgstr ""
+
+#: includes/core/class-headline-generator.php:71
+msgid ""
+"Provide subject and instructions for the one or more headlines that "
+"you want to generate. You can also paste here existing headline and "
+"request AI to rewrite that or suggest variations of it for you. A "
+"few example headline styles <a target=\"_blank\" href=\"https://www."
+"indeed.com/career-advice/career-development/types-of-headlines"
+"\">here</a>."
+msgstr ""
+
+#: includes/core/class-headline-generator.php:96
+msgid "The headline will be generated in the selected language."
+msgstr ""
+
+#: includes/core/class-headline-generator.php:255
+msgid ""
+"Error! Your account does not have user permission to generate "
+"headline!"
+msgstr ""
+
+#: includes/core/class-headline-generator.php:272
+msgid ""
+"You have not provided the topic for the headline that you want to "
+"generate!"
+msgstr ""
+
+#: includes/utils/class-openai-client.php:26
+msgid ""
+"The OpenAI API secret key is not specified in the plugin settings. "
+"Go to Settings -> Elementor AI Assistant to provide the same."
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:39
+msgid "AI Advanced Writer"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:87
+msgid "Advanced AI Content"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:97
+msgid "AI generated content reflected here"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:108
+msgid "Prompt"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:112
+msgid ""
+"Provide subject and detailed instructions for the content you want "
+"to generate. You can also paste here existing content and request "
+"AI to fix style/grammar or rewrite that content for you. "
+"<br><strong><div style=\"font-size: 14px; font-style: normal; "
+"margin-top: 10px; color: red;\" >This widget is deprecated in favor "
+"of native Text Editor widget of Elementor which is now AI enabled "
+"with better features. <br></br>Hence, the Generate feature of AI "
+"Advanced Writer widget is now disabled. <u>This widget will be "
+"removed in future releases. To preserve existing content, pls "
+"ensure all data is moved to Text Editor widget.</u></div></strong>"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:137
+msgid "Content Parameters"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:293
+msgid "Text"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:301
+msgid "Text Color"
+msgstr ""
+
+#: includes/widgets/advanced-writer.php:314
+msgid "Typography"
+msgstr ""
+
+#: plugin.php:74 plugin.php:83
+msgid "Cheatin&#8217; huh?"
+msgstr ""
+
+#: plugin.php:190
+msgid "Livemesh Addons"
+msgstr ""
